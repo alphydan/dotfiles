@@ -1,0 +1,225 @@
+# [earth]
+# image=/home/avo/Pictures/wallpapers/xplanet/world.topo.bathy.200407.3x5400x2700.jpg
+# night_map=/home/avo/Pictures/wallpapers/xplanet/EarthLights.jpg
+# magnify=1
+# twilight=6
+# radius=10
+
+
+[moon]
+"Moon"
+map=moon.jpg
+color={100, 100, 100}
+draw_orbit=true
+magnify=10
+
+
+[earth]
+"Earth"
+map=earth1.jpg
+color={28, 82, 110}
+night_map=Night_huge.jpg
+magnify=1
+
+#satellite_file=iss
+#satellite_file=hubble
+#satellite_file=satellites/tm
+
+
+
+
+[default]     
+arc_color=white
+#arc_file=
+
+#bump_map=
+bump_scale=1
+
+cloud_gamma=1
+#cloud_map=
+cloud_ssec=false              
+cloud_threshold=90
+
+color={255,255,255}            
+draw_orbit=false               
+grid=false
+grid1=6
+grid2=15
+
+#image=
+
+magnify=1                      
+marker_color=yellow
+#marker_file=
+#marker_font=
+
+max_radius_for_label=3          
+
+min_radius_for_label=.01         
+
+min_radius_for_markers=40      
+
+#night_map=
+
+orbit={-.5,.5,2}                
+orbit_color={255,255,255}      
+random_origin=true              
+random_target=true               
+#satellite_file=
+shade=10                        
+#specular_map=
+text_color={255,0,0}            
+twilight=6                      
+
+[sun]
+"Sun"
+color={255,255,166}
+max_radius_for_label=0       
+#shade=100			# No night side!
+
+
+
+[mercury]
+"Mercury"
+color={100, 100, 100}
+min_radius_for_label=0          # always draw a label
+
+
+[venus]
+"Venus"
+color={161, 129, 70}
+min_radius_for_label=0
+
+
+[mars]
+"Mars"
+color={172, 123, 67}
+map=mars.jpg
+min_radius_for_label=0
+magnify=40
+
+[phobos]
+"Phobos"
+map=phobos.jpg
+magnify=10
+
+
+[deimos]
+"Deimos"
+map=deimos.jpg
+magnify=10
+
+
+[jupiter]
+"Jupiter"
+color={204, 163, 133}
+min_radius_for_label=0
+map=jupiter_vgr2.jpg
+
+[io]
+"Io"
+color={212, 182, 52}
+map=io.jpg
+magnify=10
+
+[europa]
+"Europa"
+color={140, 140, 140}
+map=europa.jpg
+magnify=10
+
+[ganymede]
+"Ganymede"
+color={150, 150, 150}
+map=ganymede.jpg
+magnify=10
+
+[callisto]
+"Callisto"
+color={70, 70, 70}
+map=callisto.jpg
+magnify=10
+
+[saturn]
+"Saturn"
+color={244, 199, 134}
+min_radius_for_label=0
+map=saturn.jpg
+
+[mimas]
+"Mimas"
+map=mimas_bump.jpg
+
+[enceladus]
+"Enceladus"
+
+[tethys]
+"Tethys"
+
+[dione]
+"Dione"
+
+[rhea]
+"Rhea"
+
+[titan]
+"Titan"
+
+color={252,94,7}
+
+[hyperion]
+"Hyperion"
+
+[iapetus]
+"Iapetus"
+
+[phoebe]
+"Phoebe"
+
+[uranus]
+"Uranus"
+
+color={105, 197, 238}
+
+min_radius_for_label=0
+
+[miranda]
+"Miranda"
+
+[ariel]
+"Ariel"
+
+[umbriel]
+"Umbriel"
+
+[titania]
+"Titania"
+
+[oberon]
+"Oberon"
+
+[neptune]
+"Neptune"
+color={95, 133, 232}
+map=neptune.jpg
+
+min_radius_for_label=0
+
+[triton]
+"Triton"
+
+[nereid]
+"Nereid"
+
+[pluto]
+"Pluto"
+color={206, 180, 153}
+
+min_radius_for_label=0
+
+[charon]
+"Charon"
+
+
+
+

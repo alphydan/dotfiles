@@ -1,0 +1,12 @@
+escape ^Oo
+
+startup_message off # Turn off the splash screen
+
+# keep scrollback n lines
+defscrollback 10000
+
+
+# THIS IS THE PRETTY BIT
+#change the hardstatus settings to give an window list at the bottom of the                                                                        
+##screen, with the time and date and with the current window highlighted                                                                            
+hardstatus alwayslastline "%{.bW}%-w%{.rW}%n %t%{-}%+w %=%{..G} %H %{..Y} %m/%d %C%a "
